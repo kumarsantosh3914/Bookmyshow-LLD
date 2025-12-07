@@ -12,7 +12,7 @@ import java.util.List;
 @Entity
 public class City extends BaseModel {
 
-    private String city;
+    private String name;
 
     @OneToMany(mappedBy = "city")
     private List<Theatre> theatres;

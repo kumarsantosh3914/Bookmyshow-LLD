@@ -23,5 +23,5 @@ public class Ticket extends BaseModel {
     private List<ShowSeat> showSeats;
 
     @Enumerated(EnumType.ORDINAL)
-    private TicketStatus ticketStatus;
+    private TicketStatus status;
 }
